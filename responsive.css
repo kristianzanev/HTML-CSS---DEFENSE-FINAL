@@ -1,0 +1,103 @@
+@media all and (max-width:1535px){
+    .info p {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    main .articles {
+        height: auto;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    main .articles article {
+        margin-bottom: 60px;
+    } 
+}
+@media all and (max-width:1030px) {
+  
+    body > header > .img-bg {
+        width: 100% 
+    }
+    #icon-box {
+        width: 100px;
+    }
+    
+    body > main > section.info > div.icons-wrap {
+        width: 390px;
+    }
+     #food-text {
+        font-size: 1.5em;
+         
+    }
+    main .articles  {
+        height: auto;
+        display: block;
+        margin: 0 auto; 
+        width: 300px;
+    }
+    body main .joke {
+        padding: 22px 200px 22px 200px;
+    }
+}
+@media all and (min-device-width: 251px) and (max-device-width: 640px) {
+    nav ul {
+        display: flex;
+       flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;   
+    }
+    nav ul li{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid lightgray;
+        font-size: 2em;
+    }
+    header .buttons {
+    flex-direction: column; 
+        text-align: center;
+        margin-top: 10px;
+        
+}
+    header .buttons .btn1 {
+    width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 30px;
+}
+    
+    body > main > section.info > div.icons-wrap {
+        width: 490px;
+    }
+    
+    #food-text {
+        font-size: 2em;
+        text-align: center;
+    }
+   main .articles{
+        width: 440px;
+    }
+    
+    .articles article {
+        width: 440px;
+    font-size: 1.5em;
+    }
+    .articles article .snimki {
+        width: 440px;
+    }
+    .articles article #btn2 {
+        margin-left: 175px;
+    }
+    #footer-text {
+       padding: 20px 50px 20px 50px;
+        font-size: 0.8em;
+    }
+    body main .joke {
+        padding: 22px 22px 22px 22px;
+    }
+}
+
+
+//* plan za deistvie:
+razglobi vsichko i testvai 1 po 1!
+
+    

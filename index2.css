@@ -1,0 +1,21 @@
+body main .jokes {
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    
+}
+body main .jokes h1{
+    color: darkslategray;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+body main .joke {
+        padding: 22px 340px 22px 340px;
+    text-align: left;
+    border-bottom: 1px solid lightgray;
+}
+footer {
+    margin: 0;
+    
+}

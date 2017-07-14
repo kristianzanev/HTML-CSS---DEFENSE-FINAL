@@ -1,0 +1,218 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(images/texture6.jpg);
+    
+    font-family: arial; font-size: 16px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 340px 0 0;
+    overflow: hidden;
+    background-color: white;
+}
+li {
+    float: right;
+    border-left: 1px solid gainsboro;
+}
+li:first-of-type {
+    border-right: 1px solid gainsboro;
+}
+li a {
+    display: block;
+    color: dimgray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+li a:hover:not(.active) {
+    background-color: whitesmoke;
+}
+.active {
+    background-color: greenyellow;
+}
+header .img-bg {
+    background: url(images/header3.jpg) no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-size: 100%;
+    height: 600px;
+    width: 100%;  
+}
+.img-bg h1 {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 5em;
+    padding: 100px 70px 0 70px; 
+    text-shadow: 2px 2px #333;
+}
+.img-bg span {
+    color: greenyellow;
+}
+.img-bg h2 {
+    color: ghostwhite;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 3%;
+    text-shadow: 2px 2px #000;
+    font-size: 2.1em;
+    padding: 0 140px 0 140px;
+    font-family: sans-serif;
+}
+header .buttons {
+    margin: 0 auto;
+    display: flex;
+    
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 80px;
+}
+.buttons .btn1 {
+    width: 140px;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    flex-flow: row;
+    background: none;
+    color: white;
+    border:2px solid white;
+    border-radius: 3px;
+    margin: 0;
+    cursor: pointer;
+    font-weight: 900;
+    
+}
+.btn1:hover {
+    border-color: greenyellow;
+    color: greenyellow;
+    background: rgba(76, 175, 80, 0.3)
+}
+.info {
+    
+    width: 100%;
+    background-color: whitesmoke;
+}
+main .info h3,p {
+    text-align: center;
+    padding: 22px 340px 5px 340px;
+    color: darkslategray;
+    
+}
+main .info p {
+    padding-bottom: 20px;
+}
+main .info .icons-wrap {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    padding-bottom: 30px;
+}
+#icon-box {
+    display: block;
+    width: 65px;
+    text-align: center;
+    font-weight: 900;
+    color: darkslategray;
+}
+main .articles {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
+}
+.articles article {
+    width: 330px;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow: 2px 2px 20px #333;
+    padding-bottom: 60px;
+}
+.articles article .snimki {
+    width: 330px;
+}
+#tekst-kufteta {
+    text-align: center;
+    padding: 70px 0 40px 0;
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 5px #000;
+}
+article #quote {
+    padding: 20px 20px 20px 20px;
+    text-align: justify;
+    
+}
+article h4 {
+    padding: 10px 0 10px 0px;
+    text-align: center;
+    font-size: 2.5em;
+    color: darkslategray;   
+}
+article #btn2 {
+    z-index: 0;
+    position: absolute;
+    border-radius: 90px;
+    width: 89px;
+    height: 89px;
+    margin-left: 120px;
+    border-style:none;
+    border: 1px solid #fff;
+    
+}
+article .icon-case {
+    background: none;
+    text-align: center;
+    font-size: 80px;
+    color: darkslategray;
+}
+footer {
+background-color: #222;
+width: 100%;
+margin-top: 110px;
+    padding-bottom: 20px;
+    
+    }
+footer p#footer-text {
+    
+    margin: 0 auto;
+    color: greenyellow;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+footer .fa {
+    padding: 20px;
+    font-size: 30px;
+   border-radius: 50%;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;  
+}
+.fa-graduation-cap {
+    background: #fff;
+    color: #1f476a; 
+}
+.fa-twitter {
+    background-color: deepskyblue;
+    color: white; 
+}
+.fa:hover {
+    opacity: 0.7;
+}
+footer .social {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
